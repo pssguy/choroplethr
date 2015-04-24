@@ -1,6 +1,8 @@
 # choroplethr
 Master: [![Build Status](https://travis-ci.org/arilamstein/choroplethr.png?branch=master)](https://travis-ci.org/arilamstein/choroplethr)
 
+Just a few tweeks to arilamstein version
+
 choroplethr simplifies the creation of choropleth maps in R. Choropleths are thematic maps where geographic regions, such as states, are colored according to some metric, such as the number of people who live in that state.  choroplethr simplifies this process by
     
 1. Providing ready-made functions for creating choropleths using four different maps.
@@ -32,6 +34,6 @@ To install the development version use the `devtools` package:
 ```
 # install.packages("devtools")
 library(devtools)
-install_github("choroplethr", "arilamstein")
+install_github("pssguy/choroplethr")
 library(choroplethr)
 ```
